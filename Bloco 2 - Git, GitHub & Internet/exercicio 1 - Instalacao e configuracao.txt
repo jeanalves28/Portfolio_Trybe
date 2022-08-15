@@ -1,0 +1,18 @@
+1 - Instale o Git via terminal Linux.
+R: sudo apt-get install git-all
+
+2 - Configure a identidade no Git:
+R: git config --global user.name "aqui escrevo meu nome"
+   git config --global user.email aqui_escrevo@meu_email.br
+
+3 - Configure o editor para abrir o arquivo .gitconfig do Git no VS Code.
+R: git config --global core.editor "code --wait"
+
+4 - Agora abra o arquivo de configuração .giconfig no VS Code.
+R: code ~/.gitconfig
+
+5 - Verifique a versão do Git.
+R: git --version
+
+6 - Imprima no terminal o e-mail e nome de usuário registrado no Git.
+R: git config --list
