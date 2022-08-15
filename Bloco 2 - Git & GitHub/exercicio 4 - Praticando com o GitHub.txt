@@ -1,0 +1,46 @@
+1 - Navegue até a pasta unix_tests.
+R: cd ~/Documentos/unix_tests/
+
+2 - Verifique o status do Git.
+R: git status
+
+3 - Crie uma nova branch com o nome 'trybe-skills-changes' e faça checkout nela.
+R: git branch trybe-skills-changes
+   git checkout trybe-skills-changes
+
+4 - Adicine mais duas skill no arquivo skill2.txt.
+R: cat >> skill2.txt
+   HTML
+   CSS
+
+5 - Adicione as alterações no stagging.
+R: git add skill2.txt
+
+6 - Faça o commit.
+R: git commit -m 'adicionei mais duas skills'
+
+7 - Agora faça o push na branch.
+R: git push -u origin trybe-skills-changes
+
+8 - Volte para a branch main.
+R: git checkout master
+
+9 - Verifique a lista de branchs.
+R: git branch
+
+10 - Crie uma nova branch trybe-skills-updates a partir da master e faça checkout nela.
+R: git branch trybe-skills-updates
+   git git checkout trybe-skills-updates
+
+11 - Adicione mais uma skill no arquivo skill2.txt
+R: cat >> skill2.txt
+   JavaScript
+
+12 - Adicione as alterações na branch nova.
+R: git add skill2.txt
+   git commit -m 'uma nova skill foi adicionada'
+
+13 - Suba para a branch remota as atualizações.
+R: git push -u origin trybe-skills-updates
+
+Agora faça o merge das branchs com a branch master.

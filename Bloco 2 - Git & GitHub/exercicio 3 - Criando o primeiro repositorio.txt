@@ -1,0 +1,23 @@
+1 - Navegue até a pasta unix_tests.
+R: cd ~/Documentos/unix_tests/
+
+2 - Inicie o Git no diretório atual.
+R: git init
+
+3 - Crie o arquivo README.md.
+R: touch README.md
+
+4 - Faça o primeiro commit.
+R: git add .
+   git commit -m 'primeiro commit'
+
+Agora crie o primeiro repositório remoto no GitHub e copie o url do SSH.
+
+5 - Adicione o url do repositório remoto no Git.
+R: git remote add origin "URL_DO_REPOSITÓRIO"
+
+6 - Verifique se o Git salvou o url do repositório.
+R: git remote -v
+
+7 - Agora faça o primeiro push no repositório remoto do GitHub.
+R: git push origin master

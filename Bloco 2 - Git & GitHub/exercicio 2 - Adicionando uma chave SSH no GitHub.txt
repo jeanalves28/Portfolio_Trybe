@@ -1,0 +1,11 @@
+1 - Digite no ternimal e crie uma nova chave SSH.
+R: ssh-keygen -t ed25519 -C "meu_email@exemplo.com"
+
+2 - Inicie o ssh-agent em background.
+R: eval "$(ssh-agent -s)"
+
+3 - Adicione a chave privada SSH criada anteriormente ao ssh-agent.
+R: ssh-add ~/.ssh/id_ed25519
+
+4 - Imprima as infomações do ssh-agent na tela para inserir na conta GitHub.
+R: cat ~/.ssh/id_ed25519.pub
